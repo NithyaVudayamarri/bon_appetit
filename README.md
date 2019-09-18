@@ -6,11 +6,11 @@
 
 ### Team Members
 
-•	Priyanka Galla
-•	Naga Sai Manoj Goppisetty 
-•	Nithya Vudayamarri
-•	Nikitha Mandala
-•	Lahari Thamatam
-•	Vijaya Raja Mayuri Akula
-•	Harshavardhan Reddy Bollam
+-	Priyanka Galla
+-	Naga Sai Manoj Goppisetty 
+-	Nithya Vudayamarri
+-	Nikitha Mandala
+-	Lahari Thamatam
+-	Vijaya Raja Mayuri Akula
+-	Harshavardhan Reddy Bollam
 
