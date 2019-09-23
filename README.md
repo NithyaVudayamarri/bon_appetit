@@ -27,6 +27,11 @@
 - Users can view deals applicable on any particular restaurant.
 
 
+## Product Functions  
+- With this product, the users will be able go and check the different types of food available in different restaurants nearby. The user is given with an account which is linked to their mail, so that user will be able to access the orders and deals available. User can also send the selected items to the cart, they can view the reviews of the restaurant, nearby restaurants details, timings, menu and many more features. Additionally, the app provides the regular users exciting offers, coupons for new users to increase the users for the app.
+
+
+
 ### Team Members
 
 -	Priyanka Galla
