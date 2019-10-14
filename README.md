@@ -8,7 +8,7 @@
 - This is a food delivery web page along with an authentication and a new user can login through their credentials. User can search for different restaurants & cuisines in different locations. After placing the order the user is directed to the payment page, once the payment is done user will get a popup message like the order is placed successfully and users can track their order.
 
 ### Overview:
-- In this application, we will be developing a Home Page, Login Page, a Menu for all the restaurants we are tied-up with, allows the users to place their food Orders, also allows them to give their Ratings and Reviews for orders they placed and for the help from customer care if they got any, a Payment Page, a facility 
+- In this application, we will be developing a Home Page Login Page a Menu for all the restaurants we are tied-up with, allows the users to place their food Orders, also allows them to give their Ratings and Reviews for orders they placed and for the help from customer care if they got any, a Payment Page, a facility 
 
 ### Functional Requirements
 
