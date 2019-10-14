@@ -49,7 +49,7 @@
 -	Nikitha Mandala
 -	Lahari Thamatam
 -	Vijaya Raja Mayuri Akula
--	Harshavardhan Reddy Bollam
+-	Harsha Reddy Bollam
 
 
 
