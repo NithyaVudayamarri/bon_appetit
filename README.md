@@ -38,7 +38,7 @@
 ## GUI
 ### Login Page
 
-![image](https://github.com/Manoj1028/bon_appetit/blob/master/Screenshot%20(88).png)
+![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png)
 
 
 ### Team Members
