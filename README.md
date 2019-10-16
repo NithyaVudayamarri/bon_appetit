@@ -36,6 +36,10 @@
 
 
 ## GUI
+### Home Page
+
+![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(80).png)
+
 ### Login Page
 
 ![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png)
