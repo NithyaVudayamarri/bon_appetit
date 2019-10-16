@@ -16,7 +16,7 @@
 - In home page we have search text box, search button where the users can search for cuisines and restaurants.
 #### Login Page
 - Registered users can login with their username and password. New users can sign up.If users forget their password they can reset their password using email.
-[Click here](https://github.com/Manoj1028/bon_appetit/blob/master/login_page.html) to go to the login page.
+[Click here](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png) to go to the login page.
 #### Menu
 - The users can view menu for any restaurant by clicking the menu.
 #### Orders 
