@@ -30,7 +30,7 @@
 <body class="text-center" >
     
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">Bon Appetit  <img class="mb-4" src="mockup_imgs/inspirations.jpg" alt="" width="25" height="20"> </a>
+        <a class="navbar-brand" href="index.html">Bon Appetit  </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,21 +38,24 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link active" href="index.html">     Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link active" href="index.html"> Home <span class="sr-only">(current)</span></a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link active" href="">About Us</a>
+              <a class="nav-link active" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="">Menu</a>
+                <a class="nav-link active" href="menu.html">Menu</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link active" href="">Services</a>
+                <a class="nav-link active" href="main.html">Services</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link active" href="">Contact</a>
+                  <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="reservation.html">reservation</a>
+                 </li>
           </li>
           
             
@@ -69,17 +72,18 @@
       <img class="mb-4" src="mockup_imgs/logoo.jpg" alt="" width="350" height="400">
       <label for="inputEmail" class="sr-only">Email address</label>
       <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <small id="inputEmail" class="form-text text-muted">Login Here. We'll direct you to our Home Page.
+
+      </small>
+
       <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" name="inputPassword" placeholder="Password"
-        required>
+      <input type="password" id="inputPassword" class="form-control" name="inputPassword" placeholder="Password" required>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Forgot Password?</label>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Log In </button>
     </form>
 
-    <!-- <form id="register-form"> 
-      <input id="name" type="text" placeholder="Name" value=""/>
-      <input id="pw" type="password" placeholder="Password" value=""/>
-      <input id="rgstr_btn" type="submit" value="Sign Up" onClick="store()"/> 
-  </form> -->
+    
 
   
     <p class="mt-5 mb-3 text-muted">&copy; Manoj</p>
@@ -97,6 +101,7 @@
       }
     }
   </script>
+
   
 
   

@@ -10,7 +10,10 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #ffffff;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
   /* background-repeat: no-repeat;
   background-size: auto; */
 }
@@ -20,6 +23,10 @@ ul {
   padding: 0;
   overflow: hidden;
   
+}
+#log{
+  border:floralwhite;
+  size: 0ch;
 }
 
 
@@ -64,3 +71,23 @@ li a {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.booking input[type="email"]{
+  
+  text-align: center;
+ 
+ 
+}
+.booking input[type="date"]{
+  
+  text-align: center;
+ 
+  
+}
+.booking input[type="time"]{
+  
+  text-align: center;
+  
+  
+}
+
