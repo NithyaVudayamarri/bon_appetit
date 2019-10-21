@@ -44,6 +44,8 @@
 
 ![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png)
 
+### Payment Page
+![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(85).png)
 
 ### Team Members
 
