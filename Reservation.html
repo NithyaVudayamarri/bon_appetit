@@ -53,68 +53,23 @@
               <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0" action="index.html" method="get" target="_blank">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
-          </form>
-          <form class="form-inline mt-1 mt-md-0">
-            
+          <form class="form-inline mt-1 mt-md-0">      
+            <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Login</button>
+            <div class="mx-4"></div>     
             <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Sign Up</button>
           </form>
+        
+</div>
         </div>
       </nav>
-  
-
-
-  <div class="container">
-    <form class="form-signin" action="success/success.asp" onsubmit="return checkPassword(document.getElementById('inputPassword').value)"
-      method="POST">
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-      <img class="mb-4" src="mockup_imgs/logoo.jpg" alt="" width="350" height="450">
-      <small id="inputEmail" class="form-text text-muted">Login Here. We'll direct you to our Home Page.
-      </small>
-      <br/>
-
-      <label for="inputEmail" class="sr-only">Email address</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-      <br/>
-
-      <label for="inputPassword" class="sr-only">Password</label>
-      <input type="password" id="inputPassword" class="form-control" name="inputPassword" placeholder="Password" required>
       
-        
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Log In </button>
+        <div style=" margin-left : 0; margin-right : 1%; width : 49%;">First name<span style="color: red;"> *</span><br/>
+          <input type="text" id="data_2" name="data_2" style="width: 50%;" class="form-control"/>
+          </div>
+      </form>
       
- 
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Forgot Password?</label>
-    </form>
-  
-    <p class="mt-5 mb-3 text-muted">&copy; Manoj</p>
-  </div>
-  <script>
-    function checkPassword(inputPassword) {
-      var re = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
-      if (re.test(inputPassword)) {
 
-        return true;
-      }
-      else {
-        window.alert("Make Sure Your Password contains a digit , a capital letter, a small letter and it should be minimum 8 characters");
-        return false;
-      }
-    }
-  </script>
 
-  
 
-  
 </body>
-
 </html>
