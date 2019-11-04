@@ -10,10 +10,89 @@ body {
 }
 </style>
 </head>
-<body>
+<body class="text-center" >
+    
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html"> Bon Appetit </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html"> Home <span class="sr-only">(current)</span></a>
+          </li>            
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="main.html">Restraurants</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="reservation.html">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-1 mt-md-0">      
+          <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Login</button>
+          <div class="mx-4"></div>     
+          <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </nav>s
 
-<h1>My Website</h1>
-<p>A website created by me.</p>
+
+
+<div class="container">
+  <form class="form-signin" action="success/success.asp" onsubmit="return checkPassword(document.getElementById('inputPassword').value)"
+    method="POST">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    <img class="mb-4" src="mockup_imgs/logoo.jpg" alt="" width="350" height="450">
+    <small id="inputEmail" class="form-text text-muted">Login Here. We'll direct you to our Home Page.
+    </small>
+    <br/>
+
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <br/>
+
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" name="inputPassword" placeholder="Password" required>
+    
+      
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Log In </button>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Forgot Password?</label>
+  </form>
+
+  <p class="mt-5 mb-3 text-muted">&copy; Manoj</p>
+</div>
+<script>
+  function checkPassword(inputPassword) {
+    var re = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+    if (re.test(inputPassword)) {
+
+      return true;
+    }
+    else {
+      window.alert("Make Sure Your Password contains a digit , a capital letter, a small letter and it should be minimum 8 characters");
+      return false;
+    }
+  }
+</script>
+
+
+
 
 </body>
 </html>
