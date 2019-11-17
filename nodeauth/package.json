@@ -25,5 +25,10 @@
     "passport-http": "*",
     "passport-local": "*",
     "serve-favicon": "^2.5.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
