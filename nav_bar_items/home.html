@@ -11,6 +11,8 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="../styles/signin.css" rel="stylesheet">
   <style>
     .bd-placeholder-img {
         font-size: 1.125rem;
@@ -21,76 +23,59 @@
           font-size: 3.5rem;
         }
       }
+      #search_div {
+        background: url(../images/homepage_bgimg.jpg) no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: left top;
+      }
     </style>
-  <!-- Custom styles for this template -->
-  <link href="Styles/signin.css" rel="stylesheet">
 </head>
 
 <body class="text-center" >
     
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="home.html">Bon Appetit  </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item ">
-              <a class="nav-link active" href="home.html"> Home <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About Us</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link active" href="restaurants.html">Restraurants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="reservation.html">Reservation</a>
-             </li>
-              <li class="nav-item">
-                  <a class="nav-link active" href="contact.html">Contact</a>
-                </li>
-               
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="home.html">Bon Appetit  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link active" href="./home.html"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="./about.html">About Us</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link active" href="./restaurants.html">Restraurants</a>
           </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0" action="index.html" method="get" target="_blank">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>
-          </form>
-          <div class="mx-3"></div>
-          <form class="form-inline mt-1 mt-md-0" action="signup.html" method="get" target="_blank"> 
-              <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Register</button>
-          </form>
-        </div>
-      </nav>
-      
-
-     
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-          <img class="mb-4" src="mockup_imgs/logoo.jpg" alt="" width="350" height="450">
-          <small id="inputEmail" class="form-text text-muted">
-            <aside style="color:red;">                     Welcome to our Home Page.</aside>
-          </small>
-          <br/>
-    
-         
-      
-        <p class="mt-5 mb-3 text-muted">&copy; Manoj</p>
-      </div>
+          <li class="nav-item">
+            <a class="nav-link active" href="./reservation.html">Reservation</a>
+         </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact</a>
+            </li>
+           
+      </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0" action="./login.html" method="get" target="_blank">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>
+    </form>
+    <div class="mx-3"></div>
+    <form class="form-inline mt-1 mt-md-0" action="./signup.html" method="get" target="_blank"> 
+        <button class="btn btn-outline-success my-1 my-sm-0" type="submit">Register</button>
+    </form>
+    </div>
+  </nav>
   
+  <div id="search_div">
 
-  
 
-  
+  </div>
 
   
 </body>
