@@ -25,10 +25,7 @@
 - Users can give rating and review for a restaurant and view the other ratings and reviews also.
 #### Payment 
 - Users can pay using their credit/debit card and cash on delivery.
-#### Promotional Codes 
-- Using this code users can get a discount on the order.
-#### Deals
-- Users can view deals applicable on any particular restaurant.
+
 
 
 ## Product Functions  
