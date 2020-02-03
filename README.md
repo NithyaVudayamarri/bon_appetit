@@ -17,7 +17,7 @@
 #### Login Page
 - Registered users can login with their username and password. New users can sign up.If users forget their password they can reset their password using email.
 [Click here](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png) to go to the login page.
-#### Menu
+#### Restraursnts
 - The users can view menu for any restaurant by clicking the menu.
 #### Orders 
 - Items which are ordered can be viewed in orders.
