@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: left: ;;
+  text-align: left: ;;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  font-size: 14px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+  <body class="text-center"  background="..\images\background.jpg" ></body>
+    
+<h2 style="text-align:left">Items Cart</h2>
+
+
+<div class="product-description" data-name="pepporoni pizza" data-price="$15.99">
+  <h3 class="product-name">pepporoni pizza</h3>
+      <p class="product-price">&dollar;; 15.99</p>
+      <form class="add-to-cart" action="cart.html" method="post">
+          <div>
+              <label for="qty-1">Quantity</label>
+              <input type="checkbox" name="1" value="1"><br>
+              <input type="checkbox" name="2" value="2"><br>
+              <input type="checkbox" name="3" value="3" checked><br>
+              <input type="checkbox" name="4" value="4"><br>
+              <input type="checkbox" name="5" value="5" checked><br>
+          </div>
+          <p><input type="submit" value="Add to cart" class="btn" /></p>
+      </form>
+</div>
+</style>
+</body>
+</html>
