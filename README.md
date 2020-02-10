@@ -1,8 +1,7 @@
 # BON_APPETIT
 # GRADUATE DIRECT PROJECT 04
 
-### Purpose 
-- Modern day application for delivering food to the door step from favorite restaurants nearby with fastest delivery services and easy accessibility .
+
 
 ### Scope
 - This is a food delivery web page along with an authentication and a new user can login through their credentials. User can search for different restaurants & cuisines in different locations. After placing the order the user is directed to the payment page, once the payment is done user will get a popup message like the order is placed successfully and users can track their order.
@@ -17,7 +16,7 @@
 #### Login Page
 - Registered users can login with their username and password. New users can sign up.If users forget their password they can reset their password using email.
 [Click here](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png) to go to the login page.
-#### Menu
+#### Restraursnts
 - The users can view menu for any restaurant by clicking the menu.
 #### Orders 
 - Items which are ordered can be viewed in orders.
@@ -25,10 +24,7 @@
 - Users can give rating and review for a restaurant and view the other ratings and reviews also.
 #### Payment 
 - Users can pay using their credit/debit card and cash on delivery.
-#### Promotional Codes 
-- Using this code users can get a discount on the order.
-#### Deals
-- Users can view deals applicable on any particular restaurant.
+
 
 
 ## Product Functions  
@@ -44,8 +40,7 @@
 
 ![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png)
 
-### Payment Page
-![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(85).png)
+
 
 ### Team Members
 
