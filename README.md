@@ -1,8 +1,7 @@
 # BON_APPETIT
 # GRADUATE DIRECT PROJECT 04
 
-### Purpose 
-- Modern day application for delivering food to the door step from favorite restaurants nearby with fastest delivery services and easy accessibility .
+
 
 ### Scope
 - This is a food delivery web page along with an authentication and a new user can login through their credentials. User can search for different restaurants & cuisines in different locations. After placing the order the user is directed to the payment page, once the payment is done user will get a popup message like the order is placed successfully and users can track their order.
@@ -41,8 +40,7 @@
 
 ![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(81).png)
 
-### Payment Page
-![image](https://github.com/Manoj1028/bon_appetit/blob/master/mockup_imgs/Screenshot%20(85).png)
+
 
 ### Team Members
 
