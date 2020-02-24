@@ -1,0 +1,15 @@
+h2{
+    text-align: center;
+    padding-top: 100px
+    
+
+}
+.btn-accent {background-color: 	#ffffff;}
+section{
+    text-align: center;
+background-color:	#FFEEFB;
+background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(https://drmillerdesignbuild.com/wp-content/uploads/2016/02/contact-us-background.jpg)
+}
+form{
+    padding-left: 400px
+}
