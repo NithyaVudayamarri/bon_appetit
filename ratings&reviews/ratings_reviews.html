@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+
+  position: relative;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+
+.centered {
+  position: absolute;
+  bottom: 75px;
+  left: 46%;
+  
+}
+
+
+.radio-toolbar {
+  margin: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid rgb(248, 246, 246);
+    border-radius: 4px;
+   
+   
+}
+
+.radio-toolbar label:hover {
+  
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+   
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color :whitesmoke;
+    border-color: #4c4; 
+}
+.visa{background-image:url(http://i.imgur.com/lXzJ1eB.png);
+}
+
+</style>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello World";
+    }</script>
+</head>
+<body style="background-image: url('foodimage.jpg'); background-repeat :no-repeat;background-size: 1360px 920px;color:white">
+     
+  <h1>Ratings and Reviews page</h1>
+  <h2>Your feedback is most valuable for us!</h2>
+   <p>
+   <p> You can just rate the food served to you.Which is on a scale of 5, when you give 1 it means the lowest rated and 5 gets the best food respectively. </p>
+   <p>1 --> means- VERY BAD</p>
+   <p>2 --> means- BAD</p>
+   <p>3 --> means- GOOD</p>
+   <p>4 --> means- VERY GOOD</p>
+   <p>5 --> means- EXCELLENT</p>
+   <P>You can take time and just write a review about the food even.</p>
+  </p>
+
+  <p2>Click here to write a review.
+      <a href="review.html">Write Review</a>
+  </p2>
+
+<div class="container">
+  
+  <div class="centered">
+  </div>
+   <div class="contianer">
+     <p>Rate your Food...!!</p>
+   </div>
+    <div class="radio-toolbar">
+
+    <form action="">
+
+
+
+      <input class="star star-5" id="star-5" type="radio" name="star"/>
+      <label class="star star-5" for="star-5">1</label>
+      <input class="star star-4" id="star-4" type="radio" name="star"/>
+      <label class="star star-4" for="star-4">2</label>
+      <input class="star star-3" id="star-3" type="radio" name="star"/>
+      <label class="star star-3" for="star-3">3</label>
+      <input class="star star-2" id="star-2" type="radio" name="star"/>
+      <label class="star star-2" for="star-2">4</label>
+      <input class="star star-1" id="star-1" type="radio" name="star"/>
+      <label class="star star-1" for="star-1">5</label>
+      <div class="container">
+        <br>
+      
+      <input id="demo" onclick="myFunction()"  type="submit">
+        
+      </div>
+    </form>
+
+  </div>
+</div>
+</body>
+</html> 
