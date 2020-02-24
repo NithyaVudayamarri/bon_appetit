@@ -27,7 +27,12 @@
   <link href="Styles/payment.css" rel="stylesheet">
 </head>
 
-<body class="text-left"  background="mockup_imgs/logoo.jpg" >
+<body class="text-left" >
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- Initialize Firebase -->
+  
+
+  
     
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <a class="navbar-brand" href="home.html">Bon Appetit  </a>
@@ -71,7 +76,7 @@
 <section class="group">
   <section>
 
-        <form>
+        <form id ="paymentpage">
             <div class="container">
               <br>
               <br>
@@ -86,26 +91,26 @@
                    
           <div class="form-group">
             <label for="Enter Card Number">Card number</label>
-            <input type=" your number" class="form-control" id="Your card Number" size="45" placeholder="Valid Card Number">
+            <input type="number" class="form-control" id="cardnumber" size="45" placeholder="Valid Card Number">
           </div>
           <div class="form-group">
             <label for="Enter expiration date">Expiration date</label>
-            <input type=" your number" class="form-control" id="card expiration date" placeholder="MM/YY">
+            <input type="number" class="form-control" id="expirationdate" placeholder="MM/YY">
           </div>
             
           <div class="form-group">
             <label for="Enter CVV">Security code </label>
-            <input type="your number" class="form-control" id="CVV" placeholder="">
+            <input type="number" class="form-control" id="cvv" placeholder="">
           </div>
           <div class="form-group">
             <label for="Enter Name on your card">Name on card </label>
-            <input type="text" class="form-control" id="Your name" placeholder="">
-          </form>
+            <input type="text" class="form-control" id="name" placeholder="">
+          
          
           </div>
   </section>
 <aside>
-          <form>
+          
           <div class="container">
 
             <br>
@@ -114,26 +119,27 @@
             <p>Please fill the details below</p>
             <hr>
               <ul>
-            <div class="form-group">
+                
+            <div class="form-group" >
             <label for="Enter your fisrt name">Enter First Name </label>
-            <input type="text" class="form-control" id="Your first name" size="45" placeholder="please Enter First Name">
+            <input type="text" class="form-control" id="firstname" size="45" placeholder="please Enter First Name">
            </div>
           <div class="form-group">
             <label for="Enter your last name">Enter Last Name </label>
-            <input type="text" class="form-control" id="Your last name" placeholder="please Enter Last Name">
+            <input type="text" class="form-control" id="lastname" placeholder="please Enter Last Name">
           </div>
           <div class="form-group">
               <label for="Enter your Address line 1">Enter Address Line 1(street name) </label>
-              <input type="text" class="form-control" id="Your addressline1" placeholder="please Enter addressine1">
+              <input type="text" class="form-control" id="addressline1" placeholder="please Enter addressine1">
             </div>
             <div class="form-group">
                 <label for="Enter your Address line 2">Enter Address Line 2(Apt, floor etc) </label>
-                <input type="text" class="form-control" id="Your addressline2" placeholder="please Enter addressine2">
+                <input type="text" class="form-control" id="addressline2" placeholder="please Enter addressine2">
               </div>
           <div class="form-group">
             <label for="Enter your Phone Number">Enter phone number </label><br/>
-            <input type = "text"  id="your code"placeholder="+1" style="width: 50px;">
-            <input type = "text"  id="your code"placeholder="1234567890" style="width: 200px;">
+            <input type = "number"  id="your code" placeholder="+1" style="width: 50px;">
+            <input type = "number" placeholder="1234567890" id="phno" style="width: 200px;">
 
           
           </div>
@@ -143,7 +149,7 @@
             </div>
           
           </div>
-          <button type="submit" class="btn btn-primary"> Proceed Payment</button><br>
+          <button type="submit" class="btn btn-primary">Submit</button><br>
           <br>
           <br>
 
@@ -184,6 +190,9 @@
          
           <br>
           <br>
-
+          <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script> 
+         
+          <script src="init-firebase.js"></script>
 </body>
 </html>
