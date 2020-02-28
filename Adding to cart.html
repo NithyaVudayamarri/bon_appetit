@@ -2,30 +2,44 @@
 <html>
 <head>
 <title>Adding to Cart</title>
-</head>>    
-<div class="product-description" data-name="Wine #1" data-price="5"></div>
-  <h3 class="product-name">Wine #1</h3>
-      <p class="product-price">&dollar;; 5</p>
-      <form class="add-to-cart" action="cart.html" method="post">
-          <div>
-              <label for="qty-1">Quantity</label>
-              <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
-          </div>
+</head>
+<script>
+  var itemquantity, appleamount, appletotalamount, bananaamount, bananatotalamount, gtotalfruits, gtotalfruits
 
+  function apple() {
+    var itemquantity = document.getElementById("apple");
+    var appleamount = document.getElementById("appletotal");
+    var appletotalamount = itemquantity.value * 50;
+    appleamount.value = appletotalamount;
+  }
 
-          <div class="product-description" data-name="Burger #2" data-price="7"></div>
-  <h3 class="product-name">Burger #2</h3>
-      <p class="product-price">&dollar;; 7</p>
-      <form class="add-to-cart" action="cart.html" method="post">
-          <div>
-              <label for="qty-1">Quantity</label>
-              <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
-          </div>
-          <p><input type="submit" value="Add to cart" class="btn" /></p>
-      </form>
+  function banana() {
+    var itemquantity = document.getElementById("banana");
+    var bananaamount = document.getElementById("bananatotal");
+    var bananatotalamount = itemquantity.value * 30;
+    bananaamount.value = bananatotalamount;
+  }
 
-
+  function grandtotalfruits() {
+    var gtotalfruits = document.getElementById("grandtotalfruitss");
+    var gtotalfruitss = appletotalamount + bananatotalamount;
+    gtotalfruits.value = gtotalfruits;
+  }
+</script>
+<div class="left">
+  <p class="fruit11">Apples - <input type="number" id="apple" class="shoppinginput" onChange="apple()" onchange="grandtotalfruits"> Rs.50/Kg</p>
+  <p class="fruit12">Total amount = Rs.<output id="appletotal"></output></p>
 </div>
+<div class="left">
+  <p class="fruit11">Bananas - <input type="number" id="banana" class="shoppinginput" onChange="banana()" onchange="grandtotalfruits"> Rs.30/Kg</p>
+  <p class="fruit12">Total amount = Rs.<output id="bananatotal"></output></p>
 </div>
+
+<div class="grandtotal">
+  <p class="fruit13">Grand total = Rs.<output id="grandtotalfruits"></output></p>
+</div>`
+<form class="add-to-cart" action="cart.html" method="post">
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
 </body>
 </html>
