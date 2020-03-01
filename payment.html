@@ -91,16 +91,16 @@
                    
           <div class="form-group">
             <label for="Enter Card Number">Card number</label>
-            <input type="number" class="form-control" id="cardnumber" size="45" placeholder="Valid Card Number">
+            <input type="text" class="form-control" id="cardnumber" size="45" placeholder="Valid Card Number">
           </div>
           <div class="form-group">
             <label for="Enter expiration date">Expiration date</label>
-            <input type="number" class="form-control" id="expirationdate" placeholder="MM/YY">
+            <input type="text" class="form-control" id="expirationdate" placeholder="MM/YY">
           </div>
             
           <div class="form-group">
             <label for="Enter CVV">Security code </label>
-            <input type="number" class="form-control" id="cvv" placeholder="">
+            <input type="text" class="form-control" id="cvv" placeholder="">
           </div>
           <div class="form-group">
             <label for="Enter Name on your card">Name on card </label>
@@ -121,32 +121,38 @@
               <ul>
                 
             <div class="form-group" >
-            <label for="Enter your fisrt name">Enter First Name </label>
-            <input type="text" class="form-control" id="firstname" size="45" placeholder="please Enter First Name">
+            <label for="Enter your first name">Enter First Name </label>
+            <input type="text" class="form-control" id="firstname" size="40" placeholder="">
            </div>
           <div class="form-group">
             <label for="Enter your last name">Enter Last Name </label>
-            <input type="text" class="form-control" id="lastname" placeholder="please Enter Last Name">
+            <input type="text" class="form-control" id="lastname" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="Enter your email Address">Enter Email address </label>
+            <input type="email" class="form-control" id="emailaddress" placeholder="">
           </div>
           <div class="form-group">
               <label for="Enter your Address line 1">Enter Address Line 1(street name) </label>
-              <input type="text" class="form-control" id="addressline1" placeholder="please Enter addressine1">
+              <input type="text" class="form-control" id="addressline1" placeholder="">
             </div>
             <div class="form-group">
                 <label for="Enter your Address line 2">Enter Address Line 2(Apt, floor etc) </label>
-                <input type="text" class="form-control" id="addressline2" placeholder="please Enter addressine2">
+                <input type="text" class="form-control" id="addressline2" placeholder="">
               </div>
           <div class="form-group">
-            <label for="Enter your Phone Number">Enter phone number </label><br/>
-            <input type = "number"  id="your code" placeholder="+1" style="width: 50px;">
-            <input type = "number" placeholder="1234567890" id="phno" style="width: 200px;">
+            <label for="Enter your Phone Number">Enter Phone Number </label><br/>
+            <input type = "text"  id="your code" placeholder="+1" style="width: 50px;">
+            <input type = "tel" placeholder="1234567890" id="phno" style="width: 200px;">
 
           
           </div>
           
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
+             <!--
+               <input type="checkbox" class="form-check-input" id="exampleCheck2">
               <label class="form-check-label" for="exampleCheck1">Shipping address same as billing address</label>
             </div>
+             --> 
           
           </div>
           <button type="submit" class="btn btn-primary">Submit</button><br>
@@ -158,7 +164,7 @@
        
         </form>
       </aside>
-      
+     <!--
 </section>
 
 <section class="second">
@@ -182,6 +188,7 @@
     
   </table>
 </section>
+--> 
 
   
 
