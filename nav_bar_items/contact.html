@@ -87,22 +87,25 @@
          
            <div class="row contact-fields">
            <div class="col-md-8 left-form">
+             <div
+               class ="alert"> Your message has been sent</div>
+            
               <form id= "contactForm" method="post" action="">
                  <div class="form-group">
                     <label class="sr-only" for="fname">First Name *</label>
-                    <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*" type="text">
+                    <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*" type="text"  required>
                  </div>
                  <div class="form-group">
                     <label class="sr-only" for="lname">Last Name *</label>
-                    <input class="required form-control" id="lname" name="lname" placeholder="Last Name&nbsp;*" type="text">
+                    <input class="required form-control" id="lname" name="lname" placeholder="Last Name&nbsp;*" type="text" required>
                  </div>
                  <div class="form-group">
                     <label class="sr-only" for="contactEmail">Email *</label>
-                    <input class="required form-control h5-email" id="contactEmail" name="contactEmail" placeholder="Email&nbsp;*" type="text">
+                    <input class="required form-control h5-email" id="contactEmail" name="contactEmail" placeholder="Email&nbsp;*" type="text" required>
                  </div>
                  <div class="form-group">
                     <label class="sr-only" for="contactPhone">Phone *</label>
-                    <input class="required form-control h5-phone" id="contactPhone" name="contactPhone" placeholder="Phone&nbsp;*" type="text">
+                    <input class="required form-control h5-phone" id="contactPhone" name="contactPhone" placeholder="Phone&nbsp;*" type="text" required>
                  </div>
                  <div class="form-group">
                     <label class="sr-only" for="comment">Type your message here</label>
@@ -122,6 +125,7 @@
 
      <script
       src= "contactForm.js"></script>
+      <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/9426f4d820b8f24078b9f405aceb5ca2c7a772cb1c4de15e51251f3bc4c4d0eb.js"></script> 
           
 </body>
 </html>

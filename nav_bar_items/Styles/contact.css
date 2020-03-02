@@ -4,6 +4,15 @@ h2{
     
 
 }
+.alert{
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color:#ffffff;
+    margin-bottom:10px ;
+    display: none;
+    
+}
 .btn-accent {background-color: 	#ffffff;}
 section{
     text-align: center;
