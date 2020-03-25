@@ -25,6 +25,7 @@
     </style>
   <!-- Custom styles for this template -->
   <link href="Styles/contact.css" rel="stylesheet">
+  
 </head>
 
 <body class="text-center"  background="mockup_imgs/logoo.jpg" >
@@ -125,7 +126,17 @@
 
      <script
       src= "contactForm.js"></script>
-      <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/9426f4d820b8f24078b9f405aceb5ca2c7a772cb1c4de15e51251f3bc4c4d0eb.js"></script> 
-          
+     
+    </script>   
+    <script type="text/javascript">
+      /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+      (function(d, m){
+        var kommunicateSettings = {"appId":"3cb86ddb2de052f22f901209800166df4","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  </script>
 </body>
 </html>
