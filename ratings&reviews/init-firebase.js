@@ -15,14 +15,16 @@ console.log(firebase);
 
 var messagesRef = firebase.database().ref('ratings');
 
+
 document.getElementById('ratingss').addEventListener('submit', submitForm);
 
 function submitForm(e) {
   e.preventDefault();
 
   var ratingf = getInputVal('star');
+  var comments = getInputVal('comments');
   
-  saveMessage(ratingf);
+  saveMessage(ratingf,comments);
   
 
   document.getElementById('ratingss').reset();
@@ -33,11 +35,11 @@ function getInputVal(id) {
 }
 
 
-function saveMessage(star5) {
+function saveMessage(star5,comments) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
     star: star5,
-    
+    comments:comments,
     
   });
 }
