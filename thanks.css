@@ -1,0 +1,14 @@
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: right;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+    background-color:black
+  
+    /* background-repeat: no-repeat;
+    background-size: auto; */
+  }
+  
